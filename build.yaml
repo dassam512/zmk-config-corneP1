@@ -22,6 +22,7 @@ include:
   - board: nice_nano_v2
     shield: mkbd_macropad_left
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: mkbd_macropad_right
   - board: nice_nano_v2
